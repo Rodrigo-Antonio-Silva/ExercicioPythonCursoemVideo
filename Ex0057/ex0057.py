@@ -6,7 +6,7 @@ while True:
         print('Dados inválidos. ')
     else:
         if sex == 'M':
-            print('Masculino')
+            print('Sexo Masculino registrado com sucesso.')
         else:
-            print('Feminino')
+            print('Sexo Feminino registrado com sucesso.')
         break
