@@ -1,8 +1,11 @@
 # utf-8
-l= []
+
 p = int(input('Digite o primeiro termo: ' ))
 r = int(input('Digite a razão: '))
-for i in range(0, 10):
-    l.append(p)
+count = 0
+
+for i in range(10):
+    print(p, end='')
+    print(end=' → ' if count < 9 else print(end=' → FIM'))
     p += r
-print('Seguem os primeiros dez termos da PA de razão {}:\n{}'.format(r, l))
+    count += 1
